@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>inline JS</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <p>Qual é o melhor país do mundo?</p>
+  <script>
+    function acerto() {
+      document.write('<span style="color:green;">Resposta certa</span>');
+    }
+
+    function erro() {
+      document.write('<span style="color: red;">Resposta errada</span>');
+    }
+  </script>
+  <button onclick="erro()">RÚSSIA</button>
+  <button onclick="acerto()">BRASIL</button>
+  <button onclick="erro()">ARGENTINA</button>
+  <button onclick="erro()">EUA</button>
+</body>
+</html>
+
+
